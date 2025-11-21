@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>website@mohamedhamed.com</title>
+<script src="crypto-js.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">Simple Website</h1>
+
+
+<section>
+<h2>AES Encryption / Decryption</h2>
+<textarea id="aesText" placeholder="Enter text"></textarea>
+<button id="aesEncryptBtn">Encrypt</button>
+<button id="aesDecryptBtn">Decrypt</button>
+<textarea id="aesResult" placeholder="Result"></textarea>
+</section>
+
+<section>
+<h2>DES Encryption / Decryption</h2>
+<textarea id="desText" placeholder="Enter text"></textarea>
+<button id="desEncryptBtn">Encrypt</button>
+<button id="desDecryptBtn">Decrypt</button>
+<textarea id="desResult" placeholder="Result"></textarea>
+</section>
+
+<section>
+<h2>Steganography</h2>
+<textarea id="stegText" placeholder="Text to hide"></textarea>
+<input type="file" id="stegImageInput" accept="image/png">
+<button id="encodeBtn">Hide Text</button>
+<button id="decodeBtn">Extract Text</button>
+<canvas id="canvas" style="display:none;"></canvas>
+<img id="resultImage" style="max-width:100%; margin-top:10px;">
+<textarea id="output" placeholder="Extracted text"></textarea>
+</section>
+
+<section>
+<h2>Diffie-Hellman Key Exchange (Simulated)</h2>
+<button id="dhGenerateBtn">Generate Keys</button>
+<textarea id="dhResult" placeholder="Keys will appear here"></textarea>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+<div id="splash">
+    <h1 class="splash-title">Mohamed Hamed</h1>
+</div>
